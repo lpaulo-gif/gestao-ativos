@@ -1,0 +1,1 @@
+Relatorio de teste: coração, não, é, ê, à, ü — R$ 1.234,56 (95%).
