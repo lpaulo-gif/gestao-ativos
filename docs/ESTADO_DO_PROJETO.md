@@ -1,28 +1,22 @@
-# Estado do Projeto — Gestão de Ativos Financeiros Pessoais
+# ESTADO DO PROJETO
 
-## Etapas
-- Etapa 1 — Levantamento de Requisitos: confirmada.
-- Etapa 2 — Arquitetura de Software: confirmada.
-- Etapa 3 — Modelagem do Banco de Dados: confirmada.
-- Etapa 4 — Cadastro e Controle de Movimentações: confirmada.
-- Etapa 5 — Motor de Cálculo de Rentabilidade: confirmada.
-- Etapa 6 — Análise de Ativos Financeiros: confirmada.
-- Etapa 7 — Atualização Automática de Dados: pendente de início.
+## Etapa atual
+- Sprint 0 — Bootstrap do repositório
 
-## Decisões confirmadas
-- Uso local, em computador, por um único usuário com autenticação.
-- Escopo inicial: renda fixa e renda variável.
-- Moeda-base: BRL; sem investimentos no exterior na V1.
-- Cerca de cinco instituições.
-- Movimentações: manual, CSV/extrato e estrutura preparada para automação futura.
-- Orçamento inicial para infraestrutura e APIs: R$ 0.
-- Método de custo para V1: custo médio ponderado móvel, com limitação fiscal documentada.
-- Rentabilidade: TWR e MWR/IRR são métricas distintas; dados ausentes, estimados, atrasados ou inconsistentes devem ser sinalizados.
-- Análise: separar vertentes fundamentalista, técnica e de risco; não gerar recomendação de compra/venda ou score único opaco.
-- Indicadores analíticos devem exibir fonte, data de referência, fórmula/metodologia, benchmark quando aplicável, qualidade do dado e limitações.
+## Etapas concluídas
+- Criação e priorização das issues S0-01 a S0-08.
 
-## Próximo passo
-Iniciar a Etapa 7 — Atualização Automática de Dados.
+## Decisões tomadas
+- Adotar fluxo por etapas com gate de confirmação (G5).
+- Persistir o roteiro principal na raiz do projeto como `ROTEIRO_DO_PROJETO.md`.
+- Manter o arquivo `docs/ESTADO_DO_PROJETO.md` como fonte de retomada entre sessões (G6).
+- Usar `docs/TEMPLATE_ETAPA.md` para padronizar entregas 1–9.
 
-## Registro
-Atualizado em 2026-09-27.
+## Pendências / perguntas abertas
+- Confirmar respostas obrigatórias da Etapa 1.1 para seguir para Etapa 2.
+
+## Próximo passo (aguardando confirmação)
+- Executar Etapa 1.1 (perguntas obrigatórias) e consolidar requisitos da Etapa 1.4.
+
+## Referências
+- Issues abertas: S0-01, S0-02, S0-03, S0-04, S0-05, S0-06, S0-07, S0-08.
